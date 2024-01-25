@@ -1,0 +1,19 @@
+{
+  "name": "tool-extract-cpo-parking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "'",
+    "dev": "env $(grep -v '^#' .env) node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "geodesy": "^2.4.0",
+    "knex": "^2.5.1",
+    "mysql": "^2.18.1"
+  }
+}
